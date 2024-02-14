@@ -3,6 +3,7 @@ import { useState } from "react";
 import styles from '@/styles/home.module.css'
 
 import Header from "@/components/Header";
+import Footer from "@/components/Footer";
 
 export default function Home() {
   var apiKey = "c19903014af6285ffd52d7ad2def6ff3"
@@ -20,6 +21,7 @@ export default function Home() {
           <h3 className={styles.subtext}>2. Find the city's current weather, Tommorrow's forecase, and 6 day forecast</h3>
         </div>
       </div>
+      <Footer/>
 
 
     </main>

@@ -1,5 +1,5 @@
 interface ICurrentProps {
-    date: string;
+    value: string;
     main: {
         temp: number;
         feels_like: number;
