@@ -1,4 +1,3 @@
-
 .container {
     display: flex;
     flex-direction: column;
@@ -21,4 +20,28 @@
 .subtext {
     font-size: 22px;
     padding-bottom: 20px;
+}
+
+.searchBar {
+    border: 2px solid black;
+    border-radius: 20px;
+    width: 500px;
+    height: 40px;
+    margin-top: 20px;
+    align-items: center;
+    justify-content: center;
+}
+
+.submit {
+    width: 100px;
+    height: 40px;
+    background-color: #ee9626;
+    margin-left: 10px;
+    border-radius: 5px;
+}
+
+.searchFunction {
+    display: flex;
+    align-items: center;
+    justify-self: center;
 }

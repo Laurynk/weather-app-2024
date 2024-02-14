@@ -12,5 +12,12 @@ interface ICurrentProps {
         deg: number;
         gust: number;
     }
+    dt_txt: {
+        dt: string;
+    }
 
+}
+
+interface ICityValue{
+    city: string;
 }
