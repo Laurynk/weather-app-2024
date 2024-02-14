@@ -1,0 +1,26 @@
+.container {
+    display: flex;
+    flex-direction: row;
+}
+
+.title {
+    font-size: 25px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bold;
+    color: #ee9626;
+    margin-top: 30px;
+    margin-left: 20px;
+}
+
+.branding {
+    display: flex;
+    flex-direction: row;
+    padding-right: 500px;
+}
+
+.searchBar {
+    border: 2px solid black;
+    border-radius: 20px;
+    width: 500px;
+    height: 40px;
+}
